@@ -1,7 +1,7 @@
 
 const SITE_CONFIG = {
-  phone: "+7 (812) 000-00-00",   // TODO: заменить на реальный номер
-  email: "info@example.ru",      // TODO: заменить на реальную почту
+  phone: "+7 (812) 000-00-00",
+  email: "info@example.ru",
   workHours: "Пн–Пт, 9:00–18:00"
 };
 
@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   fillContacts();
   initHeader();
   initMobileMenu();
-  initReveal();
   initFeedbackForm();
   initYear();
 });
